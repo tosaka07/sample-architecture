@@ -29,6 +29,19 @@
 		A185E20521E9C00A003000F2 /* SampleArchitectureDataLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = A185E1F521E9C00A003000F2 /* SampleArchitectureDataLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A185E20821E9C00A003000F2 /* SampleArchitectureDataLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A185E1F321E9C00A003000F2 /* SampleArchitectureDataLayer.framework */; };
 		A185E20921E9C00A003000F2 /* SampleArchitectureDataLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A185E1F321E9C00A003000F2 /* SampleArchitectureDataLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A185E21421E9D2DE003000F2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185E21321E9D2DE003000F2 /* User.swift */; };
+		A185E21621E9DB3A003000F2 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185E21521E9DB3A003000F2 /* Tag.swift */; };
+		A185E21821E9DCA0003000F2 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185E21721E9DCA0003000F2 /* Post.swift */; };
+		A185E21C21E9DD95003000F2 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185E21B21E9DD95003000F2 /* Group.swift */; };
+		A185E21E21E9E246003000F2 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185E21D21E9E246003000F2 /* Comment.swift */; };
+		A185E22221E9E323003000F2 /* Tagging.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185E22121E9E323003000F2 /* Tagging.swift */; };
+		A185E22421E9E42A003000F2 /* Like.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185E22321E9E42A003000F2 /* Like.swift */; };
+		A185E22621E9E7B1003000F2 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185E22521E9E7B1003000F2 /* Team.swift */; };
+		A185E22821E9E838003000F2 /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185E22721E9E838003000F2 /* Template.swift */; };
+		A185E22A21E9EA0D003000F2 /* DeployedTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185E22921E9EA0C003000F2 /* DeployedTemplate.swift */; };
+		A185E22C21E9EAE0003000F2 /* InvitedMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185E22B21E9EAE0003000F2 /* InvitedMember.swift */; };
+		A185E22E21E9EB5A003000F2 /* EmojiReaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185E22D21E9EB5A003000F2 /* EmojiReaction.swift */; };
+		A185E23021E9EC4E003000F2 /* AuthenticatedUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185E22F21E9EC4E003000F2 /* AuthenticatedUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +126,19 @@
 		A185E1FB21E9C00A003000F2 /* SampleArchitectureDataLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleArchitectureDataLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A185E20221E9C00A003000F2 /* SampleArchitectureDataLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleArchitectureDataLayerTests.swift; sourceTree = "<group>"; };
 		A185E20421E9C00A003000F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A185E21321E9D2DE003000F2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A185E21521E9DB3A003000F2 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		A185E21721E9DCA0003000F2 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		A185E21B21E9DD95003000F2 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		A185E21D21E9E246003000F2 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		A185E22121E9E323003000F2 /* Tagging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tagging.swift; sourceTree = "<group>"; };
+		A185E22321E9E42A003000F2 /* Like.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Like.swift; sourceTree = "<group>"; };
+		A185E22521E9E7B1003000F2 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		A185E22721E9E838003000F2 /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
+		A185E22921E9EA0C003000F2 /* DeployedTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeployedTemplate.swift; sourceTree = "<group>"; };
+		A185E22B21E9EAE0003000F2 /* InvitedMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitedMember.swift; sourceTree = "<group>"; };
+		A185E22D21E9EB5A003000F2 /* EmojiReaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiReaction.swift; sourceTree = "<group>"; };
+		A185E22F21E9EC4E003000F2 /* AuthenticatedUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +268,7 @@
 		A185E1F421E9C00A003000F2 /* SampleArchitectureDataLayer */ = {
 			isa = PBXGroup;
 			children = (
+				A185E21221E9D2BF003000F2 /* model */,
 				A185E1F521E9C00A003000F2 /* SampleArchitectureDataLayer.h */,
 				A185E1F621E9C00A003000F2 /* Info.plist */,
 			);
@@ -255,6 +282,26 @@
 				A185E20421E9C00A003000F2 /* Info.plist */,
 			);
 			path = SampleArchitectureDataLayerTests;
+			sourceTree = "<group>";
+		};
+		A185E21221E9D2BF003000F2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A185E21321E9D2DE003000F2 /* User.swift */,
+				A185E21521E9DB3A003000F2 /* Tag.swift */,
+				A185E21721E9DCA0003000F2 /* Post.swift */,
+				A185E21B21E9DD95003000F2 /* Group.swift */,
+				A185E21D21E9E246003000F2 /* Comment.swift */,
+				A185E22121E9E323003000F2 /* Tagging.swift */,
+				A185E22321E9E42A003000F2 /* Like.swift */,
+				A185E22521E9E7B1003000F2 /* Team.swift */,
+				A185E22721E9E838003000F2 /* Template.swift */,
+				A185E22921E9EA0C003000F2 /* DeployedTemplate.swift */,
+				A185E22B21E9EAE0003000F2 /* InvitedMember.swift */,
+				A185E22D21E9EB5A003000F2 /* EmojiReaction.swift */,
+				A185E22F21E9EC4E003000F2 /* AuthenticatedUser.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -387,6 +434,7 @@
 					};
 					A185E1F221E9C00A003000F2 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					A185E1FA21E9C00A003000F2 = {
 						CreatedOnToolsVersion = 10.1;
@@ -518,6 +566,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A185E21E21E9E246003000F2 /* Comment.swift in Sources */,
+				A185E22A21E9EA0D003000F2 /* DeployedTemplate.swift in Sources */,
+				A185E22421E9E42A003000F2 /* Like.swift in Sources */,
+				A185E23021E9EC4E003000F2 /* AuthenticatedUser.swift in Sources */,
+				A185E21821E9DCA0003000F2 /* Post.swift in Sources */,
+				A185E22821E9E838003000F2 /* Template.swift in Sources */,
+				A185E21621E9DB3A003000F2 /* Tag.swift in Sources */,
+				A185E22621E9E7B1003000F2 /* Team.swift in Sources */,
+				A185E22E21E9EB5A003000F2 /* EmojiReaction.swift in Sources */,
+				A185E21421E9D2DE003000F2 /* User.swift in Sources */,
+				A185E21C21E9DD95003000F2 /* Group.swift in Sources */,
+				A185E22C21E9EAE0003000F2 /* InvitedMember.swift in Sources */,
+				A185E22221E9E323003000F2 /* Tagging.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -698,6 +759,7 @@
 		A185E1AD21E9B074003000F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 35T2DQ975S;
@@ -720,6 +782,7 @@
 		A185E1AE21E9B074003000F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 35T2DQ975S;
@@ -824,6 +887,7 @@
 		A185E20B21E9C00A003000F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -842,6 +906,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.tosaka.SampleArchitectureDataLayer;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -852,6 +917,7 @@
 		A185E20C21E9C00A003000F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
