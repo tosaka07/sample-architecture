@@ -24,6 +24,11 @@
 		A185E1C721E9B94E003000F2 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A185E1BD21E9B94E003000F2 /* Moya.framework */; };
 		A185E1C821E9B94E003000F2 /* RxNuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A185E1BE21E9B94E003000F2 /* RxNuke.framework */; };
 		A185E1C921E9B94E003000F2 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A185E1BF21E9B94E003000F2 /* SwiftyBeaver.framework */; };
+		A185E1FC21E9C00A003000F2 /* SampleArchitectureDataLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A185E1F321E9C00A003000F2 /* SampleArchitectureDataLayer.framework */; };
+		A185E20321E9C00A003000F2 /* SampleArchitectureDataLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185E20221E9C00A003000F2 /* SampleArchitectureDataLayerTests.swift */; };
+		A185E20521E9C00A003000F2 /* SampleArchitectureDataLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = A185E1F521E9C00A003000F2 /* SampleArchitectureDataLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A185E20821E9C00A003000F2 /* SampleArchitectureDataLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A185E1F321E9C00A003000F2 /* SampleArchitectureDataLayer.framework */; };
+		A185E20921E9C00A003000F2 /* SampleArchitectureDataLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A185E1F321E9C00A003000F2 /* SampleArchitectureDataLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +46,27 @@
 			remoteGlobalIDString = A185E18321E9B071003000F2;
 			remoteInfo = "sample-architecture";
 		};
+		A185E1FD21E9C00A003000F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A185E17C21E9B071003000F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A185E1F221E9C00A003000F2;
+			remoteInfo = SampleArchitectureDataLayer;
+		};
+		A185E1FF21E9C00A003000F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A185E17C21E9B071003000F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A185E18321E9B071003000F2;
+			remoteInfo = SampleArchitecture;
+		};
+		A185E20621E9C00A003000F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A185E17C21E9B071003000F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A185E1F221E9C00A003000F2;
+			remoteInfo = SampleArchitectureDataLayer;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +76,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				A185E20921E9C00A003000F2 /* SampleArchitectureDataLayer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,6 +107,12 @@
 		A185E1BD21E9B94E003000F2 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
 		A185E1BE21E9B94E003000F2 /* RxNuke.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxNuke.framework; path = Carthage/Build/iOS/RxNuke.framework; sourceTree = "<group>"; };
 		A185E1BF21E9B94E003000F2 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyBeaver.framework; path = Carthage/Build/iOS/SwiftyBeaver.framework; sourceTree = "<group>"; };
+		A185E1F321E9C00A003000F2 /* SampleArchitectureDataLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SampleArchitectureDataLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A185E1F521E9C00A003000F2 /* SampleArchitectureDataLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleArchitectureDataLayer.h; sourceTree = "<group>"; };
+		A185E1F621E9C00A003000F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A185E1FB21E9C00A003000F2 /* SampleArchitectureDataLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleArchitectureDataLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A185E20221E9C00A003000F2 /* SampleArchitectureDataLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleArchitectureDataLayerTests.swift; sourceTree = "<group>"; };
+		A185E20421E9C00A003000F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +123,7 @@
 				A185E1C021E9B94E003000F2 /* RxSwift.framework in Frameworks */,
 				A185E1C121E9B94E003000F2 /* RxCocoa.framework in Frameworks */,
 				A185E1C221E9B94E003000F2 /* Alamofire.framework in Frameworks */,
+				A185E20821E9C00A003000F2 /* SampleArchitectureDataLayer.framework in Frameworks */,
 				A185E1C321E9B94E003000F2 /* Result.framework in Frameworks */,
 				A185E1C421E9B94E003000F2 /* Nuke.framework in Frameworks */,
 				A185E1C521E9B94E003000F2 /* RxAtomic.framework in Frameworks */,
@@ -114,6 +148,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A185E1F021E9C00A003000F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A185E1F821E9C00A003000F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A185E1FC21E9C00A003000F2 /* SampleArchitectureDataLayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -123,6 +172,8 @@
 				A185E18621E9B071003000F2 /* sample-architecture */,
 				A185E19B21E9B074003000F2 /* sample-architectureTests */,
 				A185E1A621E9B074003000F2 /* sample-architectureUITests */,
+				A185E1F421E9C00A003000F2 /* SampleArchitectureDataLayer */,
+				A185E20121E9C00A003000F2 /* SampleArchitectureDataLayerTests */,
 				A185E18521E9B071003000F2 /* Products */,
 				A185E1B521E9B94D003000F2 /* Frameworks */,
 			);
@@ -134,6 +185,8 @@
 				A185E18421E9B071003000F2 /* SampleArchitecture.app */,
 				A185E19821E9B074003000F2 /* SampleArchitectureTests.xctest */,
 				A185E1A321E9B074003000F2 /* SampleArchitectureUITests.xctest */,
+				A185E1F321E9C00A003000F2 /* SampleArchitectureDataLayer.framework */,
+				A185E1FB21E9C00A003000F2 /* SampleArchitectureDataLayerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -186,7 +239,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A185E1F421E9C00A003000F2 /* SampleArchitectureDataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				A185E1F521E9C00A003000F2 /* SampleArchitectureDataLayer.h */,
+				A185E1F621E9C00A003000F2 /* Info.plist */,
+			);
+			path = SampleArchitectureDataLayer;
+			sourceTree = "<group>";
+		};
+		A185E20121E9C00A003000F2 /* SampleArchitectureDataLayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A185E20221E9C00A003000F2 /* SampleArchitectureDataLayerTests.swift */,
+				A185E20421E9C00A003000F2 /* Info.plist */,
+			);
+			path = SampleArchitectureDataLayerTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A185E1EE21E9C00A003000F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A185E20521E9C00A003000F2 /* SampleArchitectureDataLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		A185E18321E9B071003000F2 /* SampleArchitecture */ = {
@@ -202,6 +284,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				A185E20721E9C00A003000F2 /* PBXTargetDependency */,
 			);
 			name = SampleArchitecture;
 			productName = "sample-architecture";
@@ -244,6 +327,43 @@
 			productReference = A185E1A321E9B074003000F2 /* SampleArchitectureUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		A185E1F221E9C00A003000F2 /* SampleArchitectureDataLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A185E20A21E9C00A003000F2 /* Build configuration list for PBXNativeTarget "SampleArchitectureDataLayer" */;
+			buildPhases = (
+				A185E1EE21E9C00A003000F2 /* Headers */,
+				A185E1EF21E9C00A003000F2 /* Sources */,
+				A185E1F021E9C00A003000F2 /* Frameworks */,
+				A185E1F121E9C00A003000F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleArchitectureDataLayer;
+			productName = SampleArchitectureDataLayer;
+			productReference = A185E1F321E9C00A003000F2 /* SampleArchitectureDataLayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A185E1FA21E9C00A003000F2 /* SampleArchitectureDataLayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A185E20D21E9C00A003000F2 /* Build configuration list for PBXNativeTarget "SampleArchitectureDataLayerTests" */;
+			buildPhases = (
+				A185E1F721E9C00A003000F2 /* Sources */,
+				A185E1F821E9C00A003000F2 /* Frameworks */,
+				A185E1F921E9C00A003000F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A185E1FE21E9C00A003000F2 /* PBXTargetDependency */,
+				A185E20021E9C00A003000F2 /* PBXTargetDependency */,
+			);
+			name = SampleArchitectureDataLayerTests;
+			productName = SampleArchitectureDataLayerTests;
+			productReference = A185E1FB21E9C00A003000F2 /* SampleArchitectureDataLayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -265,6 +385,13 @@
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = A185E18321E9B071003000F2;
 					};
+					A185E1F221E9C00A003000F2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A185E1FA21E9C00A003000F2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A185E18321E9B071003000F2;
+					};
 				};
 			};
 			buildConfigurationList = A185E17F21E9B071003000F2 /* Build configuration list for PBXProject "SampleArchitecture" */;
@@ -283,6 +410,8 @@
 				A185E18321E9B071003000F2 /* SampleArchitecture */,
 				A185E19721E9B074003000F2 /* SampleArchitectureTests */,
 				A185E1A221E9B074003000F2 /* SampleArchitectureUITests */,
+				A185E1F221E9C00A003000F2 /* SampleArchitectureDataLayer */,
+				A185E1FA21E9C00A003000F2 /* SampleArchitectureDataLayerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -306,6 +435,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A185E1A121E9B074003000F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A185E1F121E9C00A003000F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A185E1F921E9C00A003000F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,6 +514,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A185E1EF21E9C00A003000F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A185E1F721E9C00A003000F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A185E20321E9C00A003000F2 /* SampleArchitectureDataLayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -383,6 +541,21 @@
 			isa = PBXTargetDependency;
 			target = A185E18321E9B071003000F2 /* SampleArchitecture */;
 			targetProxy = A185E1A421E9B074003000F2 /* PBXContainerItemProxy */;
+		};
+		A185E1FE21E9C00A003000F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A185E1F221E9C00A003000F2 /* SampleArchitectureDataLayer */;
+			targetProxy = A185E1FD21E9C00A003000F2 /* PBXContainerItemProxy */;
+		};
+		A185E20021E9C00A003000F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A185E18321E9B071003000F2 /* SampleArchitecture */;
+			targetProxy = A185E1FF21E9C00A003000F2 /* PBXContainerItemProxy */;
+		};
+		A185E20721E9C00A003000F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A185E1F221E9C00A003000F2 /* SampleArchitectureDataLayer */;
+			targetProxy = A185E20621E9C00A003000F2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -648,6 +821,102 @@
 			};
 			name = Release;
 		};
+		A185E20B21E9C00A003000F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 35T2DQ975S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SampleArchitectureDataLayer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.tosaka.SampleArchitectureDataLayer;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A185E20C21E9C00A003000F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 35T2DQ975S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SampleArchitectureDataLayer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.tosaka.SampleArchitectureDataLayer;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A185E20E21E9C00A003000F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35T2DQ975S;
+				INFOPLIST_FILE = SampleArchitectureDataLayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.tosaka.SampleArchitectureDataLayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleArchitecture.app/SampleArchitecture";
+			};
+			name = Debug;
+		};
+		A185E20F21E9C00A003000F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35T2DQ975S;
+				INFOPLIST_FILE = SampleArchitectureDataLayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.tosaka.SampleArchitectureDataLayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleArchitecture.app/SampleArchitecture";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -683,6 +952,24 @@
 			buildConfigurations = (
 				A185E1B321E9B074003000F2 /* Debug */,
 				A185E1B421E9B074003000F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A185E20A21E9C00A003000F2 /* Build configuration list for PBXNativeTarget "SampleArchitectureDataLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A185E20B21E9C00A003000F2 /* Debug */,
+				A185E20C21E9C00A003000F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A185E20D21E9C00A003000F2 /* Build configuration list for PBXNativeTarget "SampleArchitectureDataLayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A185E20E21E9C00A003000F2 /* Debug */,
+				A185E20F21E9C00A003000F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
