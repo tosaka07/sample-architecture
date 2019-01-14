@@ -8,11 +8,11 @@
 
 import Foundation
 
-struct InvitedMember {
+public struct InvitedMember {
     /// 招待中のメンバーのemailアドレス
-    var email: String
+    public var email: String
     /// 招待用URL
-    var url: String
+    public var url: String
 }
 
 extension InvitedMember: Codable {

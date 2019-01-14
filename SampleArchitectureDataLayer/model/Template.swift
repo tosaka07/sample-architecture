@@ -8,23 +8,23 @@
 
 import Foundation
 
-struct Template {
+public struct Template {
     /// テンプレートの本文
-    var body: String
+    public var body: String
     /// テンプレートの一意なID
-    var id: Int
+    public var id: Int
     /// テンプレートを判別するための名前
-    var name: String
+    public var name: String
     /// 変数を展開した状態の本文
-    var expandedBody: String
+    public var expandedBody: String
     /// 変数を展開した状態のタグ一覧
-    var expandedTags: [Tagging]
+    public var expandedTags: [Tagging]
     /// 変数を展開した状態のタイトル
-    var expandedTitle: String
+    public var expandedTitle: String
     /// タグ一覧
-    var tags: [Tagging]
+    public var tags: [Tagging]
     /// 生成される記事のタイトルの雛形
-    var title: String
+    public var title: String
 }
 
 extension Template: Codable {

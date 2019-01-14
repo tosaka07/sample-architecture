@@ -8,15 +8,15 @@
 
 import Foundation
 
-struct EmojiReaction {
+public struct EmojiReaction {
     /// データが作成された日時
-    var createdAt: Date
+    public var createdAt: Date
     /// 絵文字画像のURL
-    var imageUrl: String
+    public var imageUrl: String
     /// 絵文字の識別子
-    var name: String
+    public var name: String
     /// Qiita上のユーザ
-    var user: User
+    public var user: User
 }
 
 extension EmojiReaction: Codable {

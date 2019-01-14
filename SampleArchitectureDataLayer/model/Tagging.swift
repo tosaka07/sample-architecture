@@ -8,11 +8,11 @@
 
 import Foundation
 
-struct Tagging {
+public struct Tagging {
     /// タグを特定するための一意な名前
-    var name: String
+    public var name: String
     /// versions
-    var versions: [String]
+    public var versions: [String]
 }
 
 extension Tagging: Codable {

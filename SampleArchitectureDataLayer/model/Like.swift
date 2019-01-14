@@ -8,11 +8,11 @@
 
 import Foundation
 
-struct Like {
+public struct Like {
     /// データが作成された日時
-    var createdAt: Date
+    public var createdAt: Date
     /// Qiita上のユーザ
-    var user: User
+    public var user: User
 }
 
 extension Like: Codable {

@@ -8,39 +8,39 @@
 
 import Foundation
 
-struct User {
+public struct User {
     /// 自己紹介文
-    var description: String?
+    public var description: String?
     /// Facebook ID
-    var facebookId: String?
+    public var facebookId: String?
     /// このユーザがフォローしているユーザの数
-    var followeesCount: Int
+    public var followeesCount: Int
     /// このユーザをフォローしているユーザの数
-    var followersCount: Int
+    public var followersCount: Int
     /// GitHub ID
-    var githubLoginName: String?
+    public var githubLoginName: String?
     /// ユーザID
-    var id: String
+    public var id: String
     /// このユーザが qiita.com 上で公開している記事の数 (Qiita:Teamでの記事数は含まれません)
-    var itemsCount: Int
+    public var itemsCount: Int
     /// LinkedIn ID
-    var linkedinId: String?
+    public var linkedinId: String?
     /// 居住地
-    var location: String?
+    public var location: String?
     /// 設定している名前
-    var name: String?
+    public var name: String?
     /// 所属している組織
-    var organization: String?
+    public var organization: String?
     /// ユーザごとに割り当てられる整数のID
-    var permanentId: Int
+    public var permanentId: Int
     /// 設定しているプロフィール画像のURL
-    var profileImageUrl: String
+    public var profileImageUrl: String
     /// Qiita:Team専用モードに設定されているかどうか
-    var teamOnly: Bool
+    public var teamOnly: Bool
     /// Twitterのスクリーンネーム
-    var twitterScreenName: String?
+    public var twitterScreenName: String?
     /// 設定しているWebサイトのURL
-    var websiteUrl: String?
+    public var websiteUrl: String?
 }
 
 extension User: Codable {

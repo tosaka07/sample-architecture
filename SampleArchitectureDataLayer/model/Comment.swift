@@ -8,19 +8,19 @@
 
 import Foundation
 
-struct Comment {
+public struct Comment {
     /// コメントの内容を表すMarkdown形式の文字列
-    var body: String
+    public var body: String
     /// データが作成された日時
-    var createdAt: Date
+    public var createdAt: Date
     /// コメントの一意なID
-    var id: String
+    public var id: String
     /// コメントの内容を表すHTML形式の文字列
-    var renderedBody: String
+    public var renderedBody: String
     /// データが最後に更新された日時
-    var updatedAt: Date
+    public var updatedAt: Date
     /// Qiita上のユーザ
-    var user: User
+    public var user: User
 }
 
 extension Comment: Codable {

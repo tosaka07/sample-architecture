@@ -8,15 +8,15 @@
 
 import Foundation
 
-struct Tag {
+public struct Tag {
     /// このタグをフォローしているユーザの数
-    var followersCount: Int
+    public var followersCount: Int
     /// このタグに設定されたアイコン画像のURL
-    var iconUrl: String?
+    public var iconUrl: String?
     /// タグを特定するための一意な名前
-    var id: String
+    public var id: String
     /// このタグが付けられた記事の数
-    var itemsCount: Int
+    public var itemsCount: Int
 }
 
 extension Tag: Codable {

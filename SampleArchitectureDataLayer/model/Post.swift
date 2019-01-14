@@ -8,39 +8,39 @@
 
 import Foundation
 
-struct Post {
+public struct Post {
     /// HTML形式の本文
-    var renderedBody: String
+    public var renderedBody: String
     /// Markdown形式の本文
-    var body: String
+    public var body: String
     /// この記事が共同更新状態かどうか
-    var coediting: Bool
+    public var coediting: Bool
     /// この記事へのコメントの数
-    var commentsCount: Int
+    public var commentsCount: Int
     /// データが作成された日時
-    var createdAt: Date
+    public var createdAt: Date
     /// Qiita:Teamのグループ
-    var group: Group?
+    public var group: Group?
     /// 記事の一意なID
-    var id: String
+    public var id: String
     /// この記事への「いいね！」の数
-    var likesCount: Int
+    public var likesCount: Int
     /// 限定共有状態かどうかを表すフラグ
-    var `private`: Bool
+    public var `private`: Bool
     /// 絵文字リアクションの数
-    var reactionsCount: Int
+    public var reactionsCount: Int
     /// 記事に付いたタグ一覧
-    var tags: [Tagging]
+    public var tags: [Tagging]
     /// 記事のタイトル
-    var title: String
+    public var title: String
     /// データが最後に更新された日時
-    var updatedAt: Date
+    public var updatedAt: Date
     /// 記事のURL
-    var url: String
+    public var url: String
     /// Qiita上のユーザ
-    var user: User
+    public var user: User
     /// 閲覧数
-    var pageViewsCount: Int?
+    public var pageViewsCount: Int?
 }
 
 extension Post: Codable {

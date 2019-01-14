@@ -8,10 +8,10 @@
 
 import Foundation
 
-struct DeployedTemplate {
-    var expandedBody: String
-    var expandedTags: [Tagging]
-    var expandedTitle: String
+public struct DeployedTemplate {
+    public var expandedBody: String
+    public var expandedTags: [Tagging]
+    public var expandedTitle: String
 }
 
 extension DeployedTemplate: Codable {
