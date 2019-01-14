@@ -42,6 +42,15 @@
 		A185E22C21E9EAE0003000F2 /* InvitedMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185E22B21E9EAE0003000F2 /* InvitedMember.swift */; };
 		A185E22E21E9EB5A003000F2 /* EmojiReaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185E22D21E9EB5A003000F2 /* EmojiReaction.swift */; };
 		A185E23021E9EC4E003000F2 /* AuthenticatedUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185E22F21E9EC4E003000F2 /* AuthenticatedUser.swift */; };
+		A185E23421E9F157003000F2 /* PostApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185E23321E9F157003000F2 /* PostApiClient.swift */; };
+		A185E23521E9F297003000F2 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A185E1B621E9B94E003000F2 /* RxSwift.framework */; };
+		A185E23721EA0229003000F2 /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185E23621EA0229003000F2 /* ApiConstants.swift */; };
+		A185E23A21EA2366003000F2 /* QiitaApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185E23921EA2366003000F2 /* QiitaApi.swift */; };
+		A185E24921ECE3B0003000F2 /* SampleArchitectureDomainLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A185E24021ECE3B0003000F2 /* SampleArchitectureDomainLayer.framework */; };
+		A185E25021ECE3B0003000F2 /* SampleArchitectureDomainLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A185E24F21ECE3B0003000F2 /* SampleArchitectureDomainLayerTests.swift */; };
+		A185E25221ECE3B0003000F2 /* SampleArchitectureDomainLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = A185E24221ECE3B0003000F2 /* SampleArchitectureDomainLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A185E25521ECE3B0003000F2 /* SampleArchitectureDomainLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A185E24021ECE3B0003000F2 /* SampleArchitectureDomainLayer.framework */; };
+		A185E25621ECE3B0003000F2 /* SampleArchitectureDomainLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A185E24021ECE3B0003000F2 /* SampleArchitectureDomainLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +89,27 @@
 			remoteGlobalIDString = A185E1F221E9C00A003000F2;
 			remoteInfo = SampleArchitectureDataLayer;
 		};
+		A185E24A21ECE3B0003000F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A185E17C21E9B071003000F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A185E23F21ECE3B0003000F2;
+			remoteInfo = SampleArchitectureDomainLayer;
+		};
+		A185E24C21ECE3B0003000F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A185E17C21E9B071003000F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A185E18321E9B071003000F2;
+			remoteInfo = SampleArchitecture;
+		};
+		A185E25321ECE3B0003000F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A185E17C21E9B071003000F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A185E23F21ECE3B0003000F2;
+			remoteInfo = SampleArchitectureDomainLayer;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -90,6 +120,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				A185E20921E9C00A003000F2 /* SampleArchitectureDataLayer.framework in Embed Frameworks */,
+				A185E25621ECE3B0003000F2 /* SampleArchitectureDomainLayer.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +170,15 @@
 		A185E22B21E9EAE0003000F2 /* InvitedMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitedMember.swift; sourceTree = "<group>"; };
 		A185E22D21E9EB5A003000F2 /* EmojiReaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiReaction.swift; sourceTree = "<group>"; };
 		A185E22F21E9EC4E003000F2 /* AuthenticatedUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticatedUser.swift; sourceTree = "<group>"; };
+		A185E23321E9F157003000F2 /* PostApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostApiClient.swift; sourceTree = "<group>"; };
+		A185E23621EA0229003000F2 /* ApiConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
+		A185E23921EA2366003000F2 /* QiitaApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaApi.swift; sourceTree = "<group>"; };
+		A185E24021ECE3B0003000F2 /* SampleArchitectureDomainLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SampleArchitectureDomainLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A185E24221ECE3B0003000F2 /* SampleArchitectureDomainLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleArchitectureDomainLayer.h; sourceTree = "<group>"; };
+		A185E24321ECE3B0003000F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A185E24821ECE3B0003000F2 /* SampleArchitectureDomainLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleArchitectureDomainLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A185E24F21ECE3B0003000F2 /* SampleArchitectureDomainLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleArchitectureDomainLayerTests.swift; sourceTree = "<group>"; };
+		A185E25121ECE3B0003000F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A185E1C021E9B94E003000F2 /* RxSwift.framework in Frameworks */,
+				A185E25521ECE3B0003000F2 /* SampleArchitectureDomainLayer.framework in Frameworks */,
 				A185E1C121E9B94E003000F2 /* RxCocoa.framework in Frameworks */,
 				A185E1C221E9B94E003000F2 /* Alamofire.framework in Frameworks */,
 				A185E20821E9C00A003000F2 /* SampleArchitectureDataLayer.framework in Frameworks */,
@@ -178,6 +219,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A185E23521E9F297003000F2 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +228,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				A185E1FC21E9C00A003000F2 /* SampleArchitectureDataLayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A185E23D21ECE3B0003000F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A185E24521ECE3B0003000F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A185E24921ECE3B0003000F2 /* SampleArchitectureDomainLayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +255,8 @@
 				A185E18621E9B071003000F2 /* SampleArchitecture */,
 				A185E19B21E9B074003000F2 /* SampleArchitectureTests */,
 				A185E1A621E9B074003000F2 /* SampleArchitectureUITests */,
+				A185E24121ECE3B0003000F2 /* SampleArchitectureDomainLayer */,
+				A185E24E21ECE3B0003000F2 /* SampleArchitectureDomainLayerTests */,
 				A185E1F421E9C00A003000F2 /* SampleArchitectureDataLayer */,
 				A185E20121E9C00A003000F2 /* SampleArchitectureDataLayerTests */,
 				A185E18521E9B071003000F2 /* Products */,
@@ -213,6 +272,8 @@
 				A185E1A321E9B074003000F2 /* SampleArchitectureUITests.xctest */,
 				A185E1F321E9C00A003000F2 /* SampleArchitectureDataLayer.framework */,
 				A185E1FB21E9C00A003000F2 /* SampleArchitectureDataLayerTests.xctest */,
+				A185E24021ECE3B0003000F2 /* SampleArchitectureDomainLayer.framework */,
+				A185E24821ECE3B0003000F2 /* SampleArchitectureDomainLayerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -268,6 +329,8 @@
 		A185E1F421E9C00A003000F2 /* SampleArchitectureDataLayer */ = {
 			isa = PBXGroup;
 			children = (
+				A185E23821EA190D003000F2 /* moya */,
+				A185E23221E9EF6D003000F2 /* api */,
 				A185E21221E9D2BF003000F2 /* model */,
 				A185E1F521E9C00A003000F2 /* SampleArchitectureDataLayer.h */,
 				A185E1F621E9C00A003000F2 /* Info.plist */,
@@ -304,6 +367,41 @@
 			path = model;
 			sourceTree = "<group>";
 		};
+		A185E23221E9EF6D003000F2 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				A185E23321E9F157003000F2 /* PostApiClient.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		A185E23821EA190D003000F2 /* moya */ = {
+			isa = PBXGroup;
+			children = (
+				A185E23621EA0229003000F2 /* ApiConstants.swift */,
+				A185E23921EA2366003000F2 /* QiitaApi.swift */,
+			);
+			path = moya;
+			sourceTree = "<group>";
+		};
+		A185E24121ECE3B0003000F2 /* SampleArchitectureDomainLayer */ = {
+			isa = PBXGroup;
+			children = (
+				A185E24221ECE3B0003000F2 /* SampleArchitectureDomainLayer.h */,
+				A185E24321ECE3B0003000F2 /* Info.plist */,
+			);
+			path = SampleArchitectureDomainLayer;
+			sourceTree = "<group>";
+		};
+		A185E24E21ECE3B0003000F2 /* SampleArchitectureDomainLayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A185E24F21ECE3B0003000F2 /* SampleArchitectureDomainLayerTests.swift */,
+				A185E25121ECE3B0003000F2 /* Info.plist */,
+			);
+			path = SampleArchitectureDomainLayerTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -312,6 +410,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A185E20521E9C00A003000F2 /* SampleArchitectureDataLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A185E23B21ECE3B0003000F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A185E25221ECE3B0003000F2 /* SampleArchitectureDomainLayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +438,7 @@
 			);
 			dependencies = (
 				A185E20721E9C00A003000F2 /* PBXTargetDependency */,
+				A185E25421ECE3B0003000F2 /* PBXTargetDependency */,
 			);
 			name = SampleArchitecture;
 			productName = "sample-architecture";
@@ -411,6 +518,43 @@
 			productReference = A185E1FB21E9C00A003000F2 /* SampleArchitectureDataLayerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		A185E23F21ECE3B0003000F2 /* SampleArchitectureDomainLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A185E25721ECE3B0003000F2 /* Build configuration list for PBXNativeTarget "SampleArchitectureDomainLayer" */;
+			buildPhases = (
+				A185E23B21ECE3B0003000F2 /* Headers */,
+				A185E23C21ECE3B0003000F2 /* Sources */,
+				A185E23D21ECE3B0003000F2 /* Frameworks */,
+				A185E23E21ECE3B0003000F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleArchitectureDomainLayer;
+			productName = SampleArchitectureDomainLayer;
+			productReference = A185E24021ECE3B0003000F2 /* SampleArchitectureDomainLayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A185E24721ECE3B0003000F2 /* SampleArchitectureDomainLayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A185E25A21ECE3B0003000F2 /* Build configuration list for PBXNativeTarget "SampleArchitectureDomainLayerTests" */;
+			buildPhases = (
+				A185E24421ECE3B0003000F2 /* Sources */,
+				A185E24521ECE3B0003000F2 /* Frameworks */,
+				A185E24621ECE3B0003000F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A185E24B21ECE3B0003000F2 /* PBXTargetDependency */,
+				A185E24D21ECE3B0003000F2 /* PBXTargetDependency */,
+			);
+			name = SampleArchitectureDomainLayerTests;
+			productName = SampleArchitectureDomainLayerTests;
+			productReference = A185E24821ECE3B0003000F2 /* SampleArchitectureDomainLayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -440,6 +584,13 @@
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = A185E18321E9B071003000F2;
 					};
+					A185E23F21ECE3B0003000F2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A185E24721ECE3B0003000F2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A185E18321E9B071003000F2;
+					};
 				};
 			};
 			buildConfigurationList = A185E17F21E9B071003000F2 /* Build configuration list for PBXProject "SampleArchitecture" */;
@@ -460,6 +611,8 @@
 				A185E1A221E9B074003000F2 /* SampleArchitectureUITests */,
 				A185E1F221E9C00A003000F2 /* SampleArchitectureDataLayer */,
 				A185E1FA21E9C00A003000F2 /* SampleArchitectureDataLayerTests */,
+				A185E23F21ECE3B0003000F2 /* SampleArchitectureDomainLayer */,
+				A185E24721ECE3B0003000F2 /* SampleArchitectureDomainLayerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -497,6 +650,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A185E1F921E9C00A003000F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A185E23E21ECE3B0003000F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A185E24621ECE3B0003000F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -573,7 +740,10 @@
 				A185E21821E9DCA0003000F2 /* Post.swift in Sources */,
 				A185E22821E9E838003000F2 /* Template.swift in Sources */,
 				A185E21621E9DB3A003000F2 /* Tag.swift in Sources */,
+				A185E23721EA0229003000F2 /* ApiConstants.swift in Sources */,
+				A185E23A21EA2366003000F2 /* QiitaApi.swift in Sources */,
 				A185E22621E9E7B1003000F2 /* Team.swift in Sources */,
+				A185E23421E9F157003000F2 /* PostApiClient.swift in Sources */,
 				A185E22E21E9EB5A003000F2 /* EmojiReaction.swift in Sources */,
 				A185E21421E9D2DE003000F2 /* User.swift in Sources */,
 				A185E21C21E9DD95003000F2 /* Group.swift in Sources */,
@@ -587,6 +757,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				A185E20321E9C00A003000F2 /* SampleArchitectureDataLayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A185E23C21ECE3B0003000F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A185E24421ECE3B0003000F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A185E25021ECE3B0003000F2 /* SampleArchitectureDomainLayerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,6 +802,21 @@
 			isa = PBXTargetDependency;
 			target = A185E1F221E9C00A003000F2 /* SampleArchitectureDataLayer */;
 			targetProxy = A185E20621E9C00A003000F2 /* PBXContainerItemProxy */;
+		};
+		A185E24B21ECE3B0003000F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A185E23F21ECE3B0003000F2 /* SampleArchitectureDomainLayer */;
+			targetProxy = A185E24A21ECE3B0003000F2 /* PBXContainerItemProxy */;
+		};
+		A185E24D21ECE3B0003000F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A185E18321E9B071003000F2 /* SampleArchitecture */;
+			targetProxy = A185E24C21ECE3B0003000F2 /* PBXContainerItemProxy */;
+		};
+		A185E25421ECE3B0003000F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A185E23F21ECE3B0003000F2 /* SampleArchitectureDomainLayer */;
+			targetProxy = A185E25321ECE3B0003000F2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -896,6 +1096,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SampleArchitectureDataLayer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -926,6 +1130,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SampleArchitectureDataLayer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -976,6 +1184,102 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.tosaka.SampleArchitectureDataLayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleArchitecture.app/SampleArchitecture";
+			};
+			name = Release;
+		};
+		A185E25821ECE3B0003000F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 35T2DQ975S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SampleArchitectureDomainLayer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.tosaka.SampleArchitectureDomainLayer;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A185E25921ECE3B0003000F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 35T2DQ975S;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SampleArchitectureDomainLayer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.tosaka.SampleArchitectureDomainLayer;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A185E25B21ECE3B0003000F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35T2DQ975S;
+				INFOPLIST_FILE = SampleArchitectureDomainLayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.tosaka.SampleArchitectureDomainLayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleArchitecture.app/SampleArchitecture";
+			};
+			name = Debug;
+		};
+		A185E25C21ECE3B0003000F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35T2DQ975S;
+				INFOPLIST_FILE = SampleArchitectureDomainLayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.tosaka.SampleArchitectureDomainLayerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1036,6 +1340,24 @@
 			buildConfigurations = (
 				A185E20E21E9C00A003000F2 /* Debug */,
 				A185E20F21E9C00A003000F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A185E25721ECE3B0003000F2 /* Build configuration list for PBXNativeTarget "SampleArchitectureDomainLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A185E25821ECE3B0003000F2 /* Debug */,
+				A185E25921ECE3B0003000F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A185E25A21ECE3B0003000F2 /* Build configuration list for PBXNativeTarget "SampleArchitectureDomainLayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A185E25B21ECE3B0003000F2 /* Debug */,
+				A185E25C21ECE3B0003000F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
